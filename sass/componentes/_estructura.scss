@@ -1,0 +1,113 @@
+@import "../base/variables";
+@import "../base/mixin";
+div.inicio{
+    @include tamano(null,100vh);
+    
+    display:grid;
+    justify-content:center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "section aside"
+    "footer footer"
+    ;
+}
+div.pantalla-cubierta{
+    
+    @include tamano(null,100vh);
+
+}
+
+section.espaciado{
+    border:$color-encabezado;
+    border-radius: 20px;
+    margin: 5%;
+    font-size: $tamano-letra-acdn;
+    font-family: $tipografia;
+    
+    @include tamano(70%);
+
+}
+
+
+aside.text{
+    grid-area: aside;
+    justify-content: center;
+    align-content: center;
+    
+
+div{
+    
+    
+    grid-area: aside;
+    
+    @include tamano(400px);
+    border-radius: 20px;
+    margin:100px 100px;
+p{
+    align-content: center;
+    font-family: $tipografia;
+    font-size: x-large;
+}
+}
+}
+
+aside.contacto{
+    grid-area: aside;  
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+section.local{
+    grid-area: section;
+    
+        background-image: url(../../img/2-removebg-preview.png);
+        background-size: cover;
+        
+    
+    
+}
+
+section.comentario{
+    margin-left: 200px;
+    h2{
+        margin: 4px;
+    }
+    input, textarea{
+        
+        @include tamano(350px);
+    }
+}
+div.contacto{
+    display:grid;
+    @include tamano(null,100vh);
+    
+    display:grid;
+    justify-content:center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 2fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "section aside"
+    "mapa mapa"
+    "footer footer"
+    ;
+}
+section.mapa{
+    grid-area: mapa;
+    div{
+        border-radius: 10px;
+        
+        @include tamano(100%);
+        iframe{
+            
+            @include tamano(100%,100%)
+        }
+    }
+}
+div.centrado{
+    justify-content: center;
+    text-align: center;
+}
+

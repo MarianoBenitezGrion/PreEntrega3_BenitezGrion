@@ -1,0 +1,14 @@
+$color-encabezado:#010101;
+$cubrir:100%;
+$color-pie-pagina:#292C3E;
+$color-letra-borde:#174285;
+$tipografia:'Times New Roman', Times, serif;
+$tamano-letra-acdn:x-large;
+$color-body:#F4F8F7;
+$transparente:rgba(0,0,0,0.5);
+/*#D35400*/
+@mixin tamño($ancho, $alto){
+    width:$ancho;
+    height: $alto;
+
+}

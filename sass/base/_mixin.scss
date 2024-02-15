@@ -1,0 +1,16 @@
+@mixin tamano($ancho:null, $largo:null){
+    
+    @if $ancho==null{
+        height:$largo;
+    }
+    @else{
+        @if $largo==null{
+            width:$ancho;
+        }
+        @else{
+            height:$largo;
+            width:$ancho
+        }
+    }
+}
+

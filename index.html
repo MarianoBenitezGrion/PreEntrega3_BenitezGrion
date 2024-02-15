@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device" initial-scale="1.0">
+   <meta name="description" content="Inicio de pagina, introduccion a la tienda.">
+   <meta name="keywords" content="Martinez, Barberia y peluqueria, Ezequiel Martinez, Diseños, Moda, Ejemplos HTML, Ejemplos CSS, ejemplos inicio de pagina web">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   <link rel="stylesheet" href="./css/style.css">
-   <title>INICIO</title>
+   <link rel="stylesheet" href="./css/styles.css">
+   <link rel ="icon" type="image/x-icon" href="./img/Diseño_sin_título-removebg-preview.png">
+   <title>Martinez | Pagina de inicio</title>
 </head>
 <body>
     <div class="inicio">
-    <header class="encabezado titulo fondo_encabezado">
-        
-<img src="./img/logo.jpeg" alt="logo" class="logo">
-<div> <h1>INICIO</h1>
-<h2>Peluqueria E.Martinez</h2></div>
+      
 
+            
+        
+  <header class="encabezado titulo fondo_encabezado">
+        
+<img src="./img/logo.png" alt="logo" class="logo">
+
+
+
+  
 <div class="dropdown">
 
     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Menu
     </button>
     <ul class="dropdown-menu">
-      <li style="background-color: #91AAFC;"><a class="dropdown-item" href="./index.html">Inicio</a></li>
+      <li><a class="dropdown-item active" href="./index.html">Inicio</a></li>
       <li><a class="dropdown-item" href="./pages/acerca_de_nosotros.html">Acerca de Nosotros</a></li>
       <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
       <li><a class="dropdown-item" href="./pages/diseños.html">Diseños</a></li>
@@ -30,63 +39,75 @@
 
     </ul>
   </div>
+  
 <nav class="barra_de_navegacion">
     
         
-            <a href="./index.html"><input type="submit" value="Inicio" style="background-color:darkgrey; border:none"></a>
+            <a href="./index.html"><input type="submit" value="Inicio" class="active" ></a>
             
             
-        <a href="./pages/acerca_de_nosotros.html"><input type="submit" value="Acerca de nosotros"></a>
+        <a href="./pages/acerca_de_nosotros.html"><input type="submit" value="Acerca de nosotros" ></a>
             
             
-        <a href="./pages/contacto.html"><input type="submit" value="Contacto"></a>
+        <a href="./pages/contacto.html"><input type="submit" value="Contacto" ></a>
             
             
         <a href="./pages/diseños.html"><input type="submit" value="Diseños"></a>
             
             
-            <a href="./pages/empleados.html"><input type="submit" value="Empleados"></a>
+            <a href="./pages/empleados.html"><input type="submit" value="Empleados" ></a>
             
         
         
 </nav>
 
     </header>
-    
-        <section class="local">
 
-        <img src="./img/local.jpg" >
-        </section>
+    
+    <section class="local">
+
+      
+        
+    </section>
         <aside class="text" >
             <div>
-            <p> <span>
-                Pedi tu turno!!
-                
-            </span></p>
-            <p>
-                Abrimos de martes a sabado de 8:00 a 18:30.
+              <h1>Bienvenido a peluqueria Martinez</h1>
+              <p>
+                Te esperamos en Espeleta 1300 Martinez de martes a sabado de 8:30 a 20:00. <a href="./pages/contacto.html">Contactanos</a> y pedi tu turno con nuestros mejores estilistas
+
             </p>
-            <p>
-                Nuestra direccion es Ezpeleta 1300 Olivos.
-            </p>
-        </div>
         </aside>
-        
-   
-    <footer class="pie_pagina">
-        <div>
-        <ul>
-            <li>
-            <button class="fa fa-facebook"></button>
-
-            </li>
-            <li>
-                <button class="fa fa-instagram"></button>
-
-            </li>
-        </ul>
-    </div>
-    </footer>
+      
+    
+        <footer class="pie_pagina">
+          <div class="pie">
+          <div class="navegacion-pie"><h2>Navegacion</h2>
+              <ul>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="./acerca_de_nosotros.html">acerca de nosotros</a></li>
+                  <li><a href="./contacto.html">contacto</a></li>
+                  <li><a href="./diseños.html">diseños</a></li>
+                  <li><a href="./empleados.html">empleados</a></li>
+              </ul>
+          </div>
+          
+              
+          <div class="contacto-pie">
+              <ul>
+                  <li>
+                  <button class="fa fa-facebook"></button>
+      
+                  </li>
+                  <li>
+                      <button class="fa fa-instagram"></button>
+      
+                  </li>
+                  <li class="fas fa-phone me-3"> 3571-546827</li>
+              </ul>
+          </div>
+      </div>
+      
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 

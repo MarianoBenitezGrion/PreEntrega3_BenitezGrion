@@ -1,0 +1,19 @@
+@import"../base/variables";
+@import "../base/mixin";
+nav.barra_de_navegacion{
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: end;
+    margin-left: 200px;
+    input{
+        
+        @include tamano(150px);
+        border-radius: 20px;
+        border-color: $color-letra-borde;
+        color:$color-letra-borde;
+        background:$transparente;
+    }
+    
+}

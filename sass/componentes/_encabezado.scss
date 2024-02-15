@@ -1,0 +1,52 @@
+@import"../base/variables";
+@import"../base/mixin";
+header.encabezado{
+    display:flex;
+    gap:10px;
+    border-radius: 20px;
+    
+    @include tamano($cubrir);
+    grid-area: header;
+    
+    nav{
+        justify-content: end;
+        border-block-color: white;
+        background-color: $color-encabezado;
+    }
+    img{
+        margin-left: 120px;
+        border-radius: 100%;
+        @include tamano(150px);
+        
+        
+    }
+    
+        
+}
+header.titulo{
+    h2{
+        font-weight: bold;
+        text-align: center;
+        color:white;
+    }
+}
+header.fondo_encabezado{
+    background-color:$color-encabezado;
+    padding: 8px;
+}
+header{
+    div.dropdown{
+        justify-content: right;
+        button{
+            display: none;
+            margin: 40px;
+        }
+    }
+}
+header{
+    div.collapse{
+        justify-content: right;
+                display: none;
+                margin: 40px;
+    }
+}

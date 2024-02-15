@@ -1,0 +1,53 @@
+
+@import "./componentes/pie-pagina";
+@import"./componentes/encabezado";
+@import "./componentes/main";
+@import"./componentes/barra-navegacion";
+@import"./componentes/estructura";
+@import"./componentes/media";
+@import"./componentes/reset";
+
+body{
+    background-color: $color-body;
+    
+    @include tamano(null,100vh);
+}
+a{
+    color:$color-letra-borde;
+}
+a{
+    
+    input:hover{
+        border-color: white;
+        color:white;
+        
+    }
+    input:active{
+        background-color: $color-letra-borde;
+        border:none;
+        color:white;
+    }
+
+    input.active{
+        background-color: $color-letra-borde;
+        border:none;
+        color:white;
+    }
+    
+}
+main{
+    grid-area: main;
+    
+    overflow: scroll;
+    @include tamano(null,100vh);
+    
+}
+article{
+    div{
+        h2{
+            font-size: 20px;
+
+            
+        }
+    }
+}
