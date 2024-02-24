@@ -51,3 +51,27 @@ article{
         }
     }
 }
+.whatsapp-button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 10px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: #ffffff;
+        transform:scale(1.2);
+        
+        }
+    .whatsapp-icon {
+    width: 40px;
+    height:40px;
+    border-radius: 100%;
+    }
+}

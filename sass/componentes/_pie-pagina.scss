@@ -6,13 +6,16 @@ footer.pie_pagina{
     @include tamano($cubrir);
     grid-area: footer;
     div.pie{
+        width: 100%;
         display: flex;
+        
         background-color: $color-pie-pagina;
         justify-content: end;
         color:$color-body;
         padding: 10px;
     div.navegacion-pie{
         margin-right: 20%;
+        justify-self: end;
         ul{
             li{
                 a{
